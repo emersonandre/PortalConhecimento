@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Siimple - Free Bootstrap 3 Landing Page</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- siimple style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/navbar.css" rel="stylesheet">
+    <link href="assets/css/simple-sidebar.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  
+  </head>
+
+  <body  style="background: #FFFFFF;">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" style="background: #1C1C1C;">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Central do Conhecimento
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" id="btnNoticias">Noticias</a>
+                </li>
+                <li>
+                    <a href="#" id="btnDownloads">Downloads</a>
+                </li>
+                <li>
+                    <a href="#" id="btnTutoriais">Tutoriais</a>
+                </li>
+                <li>
+                    <a href="#" id="btnSobre">Sobre</a>
+                </li>
+                <br><li>
+                </li><br>
+                <li>
+					<font color="#1E90FF"><SCRIPT LANGUAGE="JAVASCRIPT">
+						var now = new Date();
+						var mName = now.getMonth() +1 ;
+						var dName = now.getDay() +1;
+						var dayNr = now.getDate();
+						var yearNr=now.getYear();
+						if(dName==1) {Day = "Domingo";}
+						if(dName==2) {Day = "Segunda-feira";}
+						if(dName==3) {Day = "Terça-feira";}
+						if(dName==4) {Day = "Quarta-feira";}
+						if(dName==5) {Day = "Quinta-feira";}
+						if(dName==6) {Day = "Sexta-feira";}
+						if(dName==7) {Day = "Sábado";}
+						if(mName==1){Month = "Janeiro";}
+						if(mName==2){Month = "Fevereiro";}
+						if(mName==3){Month = "Março";}
+						if(mName==4){Month = "Abril";}
+						if(mName==5){Month = "Maio";}
+						if(mName==6){Month = "Junho";}
+						if(mName==7){Month = "Julho";}
+						if(mName==8){Month = "Agosto";}
+						if(mName==9){Month = "Setembro";}
+						if(mName==10){Month = "Outubro";}
+						if(mName==11){Month = "Novembro";}
+						if(mName==12){Month = "Dezembro";}
+						if(yearNr < 2000) {Year = 1900 + yearNr;}
+						else {Year = yearNr;}
+						var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
+
+						document.write('  '+todaysDate);
+
+						//-->
+						</SCRIPT></font>
+                </li>
+                <li >
+					<h2><font color="#1E90FF"><SPAN ID="Clock">00:00:00</SPAN></font></h2>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    <div id="conteudo_principal">
+                        <h1><b>Inicio</h1><hr size="50">
+                        Bem-Vindo, Aqui Iremos Tirar Todas as Suas Duvidas!</b>
+                        <br>
+                        <br>
+                        <div style="align-content: center;">
+                        <div class="row">
+						  <div class="col-md-4"  style="margin-left:  15%; margin-top: 0%;">
+						  	<img src="assets/img/home.png"><i><b><a href="http://192.168.0.159/bilhetagem"><font color="#1E90FF">Inicio</font></a></b></i><br>
+                        		Retorne ao Menu Geral</div>
+						</div>
+						<div class="row">
+						  <div class="col-md-4"  style="margin-left:  45%; margin-top: -5.5%;">
+						  	<img src="assets/img/info.png"><i><b><a href="#" id="btnNoticiasUm"><font color="#1E90FF">Noticias</font></a></b></i><br>
+                        		Noticias Importantes Para Seus Setor</div>
+						</div>
+						<div class="row">
+						  <div class="col-md-4"  style="margin-left:  15%; margin-top: 5%;">
+						  	<img src="assets/img/dow.png"><i><b><a href="#" id="btnDownloadsUm"><font color="#1E90FF">Downloads</font></a></b></i><br>
+                        		Download de Programas Essenciais para uso diario</div>
+						</div>
+						<div class="row">
+						  <div class="col-md-4"  style="margin-left:  45%; margin-top: -5.5%;">
+						  	<img src="assets/img/tuto.png"><i><b><a href="#" id="btnTutoriaisUm"><font color="#1E90FF">Tutoriais</font></a></b></i><br>
+                        		Tutoriais Diversos Relacionado por Setor!</div>
+						</div>
+						<div class="row">
+						  <div class="col-md-4"  style="margin-left:  15%; margin-top: 5%;">
+						  	<img src="assets/img/sobre.png"><i><b><a href="#" id="btnSobreUm"><font color="#1E90FF">Sobre</font></a></b></i><br>
+                        		Informação Geral Sobre o Sistema!</div>
+						</div>
+						</div>
+					</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <script src="assets/js/plugins/morris/raphael.min.js"></script>
+    <script src="assets/js/plugins/morris/morris.min.js"></script>
+    <script src="assets/js/plugins/morris/morris-data.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	    $("#btnNoticias").click(function(){
+	        $("#conteudo_principal").load("noticias.html");
+	    });
+	    $("#btnDownloads").click(function(){
+	        $("#conteudo_principal").load("downloads.html");
+	    });
+	    $("#btnTutoriais").click(function(){
+	        $("#conteudo_principal").load("tutoriais.html");
+	    });
+	    $("#btnSobre").click(function(){
+	        $("#conteudo_principal").load("about.html");
+	    });
+	    <!-----------------------------------------------
+	    <!--menu interno  -->
+	    $("#btnNoticiasUm").click(function(){
+	        $("#conteudo_principal").load("noticias.html");
+	    });
+	    $("#btnDownloadsUm").click(function(){
+	        $("#conteudo_principal").load("downloads.html");
+	    });
+	    $("#btnTutoriaisUm").click(function(){
+	        $("#conteudo_principal").load("tutoriais.html");
+	    });
+	    $("#btnSobreUm").click(function(){
+	        $("#conteudo_principal").load("about.html");
+	    });
+    </script>
+	<SCRIPT LANGUAGE="JavaScript">
+			<!--
+			var Elem = document.getElementById("Clock");
+				function Horario(){ 
+					var Hoje = new Date(); 
+					var Horas = Hoje.getHours(); 
+					if(Horas < 10){ 
+						Horas = "0"+Horas; 
+					} 
+					var Minutos = Hoje.getMinutes(); 
+					if(Minutos < 10){ 
+						Minutos = "0"+Minutos; 
+					 }
+					var Segundos = Hoje.getSeconds(); 
+					if(Segundos < 10){ 
+						Segundos = "0"+Segundos; 
+					} 
+						Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+					} 
+						window.setInterval("Horario()",1000);
+						//-->
+			</SCRIPT>
+  </body>
+</html>
